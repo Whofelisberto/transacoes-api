@@ -7,7 +7,6 @@ Este projeto foi desenvolvido como parte de um desafio para consumir uma API ext
 - ⚛️ **React**
 - 💙 **TypeScript**
 - 🌐 **Fetch API** (requisições HTTP)
-- 💅 HTML + CSS
 
 ## 🔧 Funcionalidade
 
