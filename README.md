@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# 📊 Projeto de Análise de Transações com React e TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de um desafio para consumir uma API externa de transações financeiras, normalizar os dados recebidos e exibir estatísticas úteis ao usuário final.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React**
+- 💙 **TypeScript**
+- 🌐 **Fetch API** (requisições HTTP)
+- 💅 HTML + CSS
 
-## Expanding the ESLint configuration
+## 🔧 Funcionalidade
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+A aplicação realiza as seguintes tarefas:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. Consome os dados da API pública de transações:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+2. Converte e normaliza os dados, por exemplo:
+- Transforma strings monetárias (`R$ 1.234,56`) em `number`.
+- Converte campos booleanos e datas se necessário.
+3. Exibe estatísticas calculadas com base nos dados recebidos:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📈 Estatísticas Mostradas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Total de Valor Transacionado**
+- **Quantidade por Forma de Pagamento**:
+- Cartão de Crédito
+- Boleto
+- **Quantidade por Status**:
+- Paga
+- Recusada pela operadora de cartão
+- Aguardando pagamento
+- Estornada
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ▶️ Como Executar o Projeto
+
+Clone o repositório: 
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+
+npm install
+
+npm run dev
+
+http://localhost:5173
+
+````
+<img border="0" data-original-height="1080" data-original-width="1920" height="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3pAu0XMbJS00wFm3StElMAnUiZoD4kfH0WWbLLtkdur0X8k0058BwZea5IU5WEqW9SREJnfPU3RS9CCGh06PhfwAy2BnQUO7fwnECOXSPpRHDytYjVR04C7jkI7sUpWaNc6RvlfZzZfjtdf7mol1C5lL1WghAVs0_WrHb7n_JQK3wxjcOsbZrGwi6NGWm/s1891/transcaoapi.png" width="1280" />
+
