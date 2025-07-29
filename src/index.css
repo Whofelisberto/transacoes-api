@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+}
+
+h1 {
+  margin: 10px;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+span {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+table {
+ width: 100%;
+  border: 2px solid black;
+}
+
+td{
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: rgb(166, 166, 182);
+}
+
+tr {
+  font-size: 1.5rem;
+  gap: 10px;
+}
+
+.estatisticas {
+  margin-bottom: 20px;
+}
+
+.detalhes {
+  width: 600px;
+  border: 2px solid black;
+  margin: 10px;
+}
