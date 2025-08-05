@@ -1,8 +1,8 @@
 # 📊 Projeto de Análise de Transações com React e TypeScript
 
-## Deploy na Vercel - https://transacoes-api-coral.vercel.app/
-
 Este projeto foi desenvolvido como parte de um desafio para consumir uma API externa de transações financeiras, normalizar os dados recebidos e exibir estatísticas úteis ao usuário final.
+
+## Deploy na Vercel - https://transacoes-api-coral.vercel.app/
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -44,8 +44,6 @@ Clone o repositório:
 npm install
 
 npm run dev
-
-http://localhost:5173
 
 ````
 <img border="0" data-original-height="1080" data-original-width="1920" height="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3pAu0XMbJS00wFm3StElMAnUiZoD4kfH0WWbLLtkdur0X8k0058BwZea5IU5WEqW9SREJnfPU3RS9CCGh06PhfwAy2BnQUO7fwnECOXSPpRHDytYjVR04C7jkI7sUpWaNc6RvlfZzZfjtdf7mol1C5lL1WghAVs0_WrHb7n_JQK3wxjcOsbZrGwi6NGWm/s1891/transcaoapi.png" width="1280" />
