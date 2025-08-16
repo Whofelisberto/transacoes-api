@@ -1,4 +1,4 @@
-# 📊 Projeto de Análise de Transações com React e TypeScript
+# 📊 Projeto de Análise de Transações
 
 Este projeto foi desenvolvido como parte de um desafio para consumir uma API externa de transações financeiras, normalizar os dados recebidos e exibir estatísticas úteis ao usuário final.
 
