@@ -38,7 +38,7 @@ A aplicação realiza as seguintes tarefas:
 
 Clone o repositório: 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Whofelisberto/transacoes-api.git
    cd seu-repositorio
 
 npm install
